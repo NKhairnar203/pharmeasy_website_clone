@@ -1,0 +1,515 @@
+{
+  "homecard": [
+    {
+      "image": "https://assets.pharmeasy.in/apothecary/images/medicine_ff.webp?dim=256x0",
+      "title": "Medicine",
+      "offer": " FLAT 25% OFF"
+    },
+    {
+      "image": "https://assets.pharmeasy.in/apothecary/images/labtest_ff.webp?dim=256x0",
+      "title": "Lab Tests",
+      "offer": " UPTO 70% OFF"
+    },
+    {
+      "image": "https://assets.pharmeasy.in/apothecary/images/healthcare_ff.webp?dim=256x0",
+      "title": "Healthcare",
+      "offer": " UPTO 60% OFF"
+    },
+    {
+      "image": "https://assets.pharmeasy.in/apothecary/images/health_blogs_ff.webp?dim=256x0",
+      "title": "Health Blogs",
+      "offer": ""
+    },
+    {
+      "image": "https://assets.pharmeasy.in/apothecary/images/medicine_ff.webp?dim=256x0",
+      "title": "PLUS",
+      "offer": "Save 5% EXTRA"
+    },
+    {
+      "image": "https://assets.pharmeasy.in/apothecary/images/offers_ff.webp?dim=256x0",
+      "title": "Offers",
+      "offer": " "
+    },
+    {
+      "image": "https://assets.pharmeasy.in/apothecary/images/value_store.png?dim=256x0",
+      "title": "Value Store",
+      "offer": "UPTO 50% OFF"
+    }
+  ],
+  "customslide": [
+    {
+      "image": "https://cdn01.pharmeasy.in/dam/banner/banner/7ef05dc71e7-NU25_HP.jpg"
+    },
+    {
+      "image": "https://cdn01.pharmeasy.in/dam/banner/banner/8bd4828085b-dsds.jpg"
+    },
+    {
+      "image": "https://cdn01.pharmeasy.in/dam/banner/banner/68bc04d319c-634x274.jpg"
+    },
+    {
+      "image": "https://cdn01.pharmeasy.in/dam/banner/banner/040e2a5caf6-Lacto_Calamine.jpg"
+    },
+    {
+      "image": "https://cdn01.pharmeasy.in/dam/banner/banner/dc74366217d-New_Slipper.jpg"
+    }
+  ],
+  "healthConcern": [
+    {
+      "image": "https://cms-contents.pharmeasy.in/homepage_top_categories_images/4cb2baf3234-Fullbody.png?dim=360x0"
+    },
+    {
+      "image": "https://cms-contents.pharmeasy.in/homepage_top_categories_images/e1a18d8deac-Vitamins.png?dim=360x0"
+    },
+    {
+      "image": "https://cms-contents.pharmeasy.in/homepage_top_categories_images/1e927857c26-Diabetes.png?dim=360x0"
+    },
+    {
+      "image": "https://cms-contents.pharmeasy.in/homepage_top_categories_images/cd9606a9173-efr.png?dim=360x0"
+    },
+    {
+      "image": "https://cms-contents.pharmeasy.in/homepage_top_categories_images/e1c60c444bf-Fever.png?dim=360x0"
+    },
+    {
+      "image": "https://cms-contents.pharmeasy.in/homepage_top_categories_images/71fb3c06e71-Thyroid.png?dim=360x0"
+    },
+    {
+      "image": "https://cms-contents.pharmeasy.in/homepage_top_categories_images/7b238cdbb60-womencare.png?dim=360x0"
+    },
+    {
+      "image": "https://cms-contents.pharmeasy.in/homepage_top_categories_images/520acd31898-heart.png?dim=360x0"
+    },
+    {
+      "image": "https://cms-contents.pharmeasy.in/homepage_top_categories_images/bca113a1b80-Bone.png?dim=360x0"
+    },
+    {
+      "image": "https://cms-contents.pharmeasy.in/homepage_top_categories_images/9696ef00b0a-lifestyle.png?dim=360x0"
+    }
+  ],
+  "featured_brands": {
+    "headding": "Featured Brands",
+    "small_heading": "Pick from our favourite brands",
+    "data": [
+      {
+        "image": "https://cms-contents.pharmeasy.in/carousel_item/68b9d82403b-Nivea.jpg?dim=1440x0",
+        "name": "Nivea"
+      },
+      {
+        "image": "https://cms-contents.pharmeasy.in/carousel_item/b0c905ce347-APTIVATE.png?dim=1440x0",
+        "name": "Aptivate"
+      },
+      {
+        "image": "https://cms-contents.pharmeasy.in/carousel_item/e7d7d0ec6f4-Equals-TWO-min.png?dim=1440x0",
+        "name": "EqualsTwo"
+      },
+      {
+        "image": "https://cms-contents.pharmeasy.in/carousel_item/40facc7fa28-Pharmeasy-App.jpg?dim=1440x0",
+        "name": "Pharmeasy"
+      },
+      {
+        "image": "https://cms-contents.pharmeasy.in/carousel_item/c9fc0cd6ef6-Revital-min.png?dim=1440x0",
+        "name": "Revital"
+      },
+      {
+        "image": "https://cms-contents.pharmeasy.in/carousel_item/e9f676e803b-Polycrol.jpg?dim=1440x0",
+        "name": "Polycrol"
+      },
+      {
+        "image": "https://cms-contents.pharmeasy.in/carousel_item/4a7a350fe55-VoliniFB.png?dim=1440x0",
+        "name": "Volini"
+      },
+      {
+        "image": "https://cms-contents.pharmeasy.in/carousel_item/bf7b47a7a49-ShelcalFB.jpg?dim=1440x0",
+        "name": "Shelcal"
+      },
+      {
+        "image": "https://cms-contents.pharmeasy.in/carousel_item/1f661eaf7de-FytikaFB.png?dim=1440x0",
+        "name": "Amrutanjan"
+      },
+      {
+        "image": "https://cms-contents.pharmeasy.in/carousel_item/b81948695e5-5.png?dim=1440x0",
+        "name": "Glucon-D"
+      },
+      {
+        "image": "https://cms-contents.pharmeasy.in/carousel_item/e642f1b8237-Glucon_D.jpg?dim=1440x0",
+        "name": "Neurobion"
+      },
+      {
+        "image": "https://cms-contents.pharmeasy.in/carousel_item/d1826d1c7ad-1.png?dim=1440x0",
+        "name": "Himalaya"
+      },
+      {
+        "image": "https://cms-contents.pharmeasy.in/carousel_item/548b3d95683-I-pill.jpg?dim=1440x0",
+        "name": "I range"
+      },
+      {
+        "image": "https://cms-contents.pharmeasy.in/carousel_item/c68df7d68d0-DRMorepenFB.png?dim=1440x0",
+        "name": "Dr. Morepen"
+      },
+      {
+        "image": "https://cms-contents.pharmeasy.in/carousel_item/75e01ecaadc-DiataalFB.png?dim=1440x0",
+        "name": "Diataal"
+      },
+      {
+        "image": "https://cms-contents.pharmeasy.in/carousel_item/3f0a713d68f-1.jpg?dim=1440x0",
+        "name": "Kerala Naturals"
+      },
+      {
+        "image": "https://cms-contents.pharmeasy.in/carousel_item/9ce464f0f3f-upglam.jpg?dim=1440x0",
+        "name": "Upglam"
+      },
+      {
+        "image": "https://cms-contents.pharmeasy.in/carousel_item/6b78e4672c8-3.jpg?dim=1440x0",
+        "name": "Ktein"
+      },
+      {
+        "image": "https://cms-contents.pharmeasy.in/carousel_item/5fd66ffb18a-Good-Skyn.jpg?dim=1440x0",
+        "name": "Good Skyn"
+      },
+      {
+        "image": "https://cms-contents.pharmeasy.in/carousel_item/1151b7d7c0e-LivEasy-min.png?dim=1440x0",
+        "name": "LivEasy"
+      }
+    ]
+  },
+  "categories": {
+    "headding": "Shop by Categories",
+
+    "data": [
+      {
+        "image": "https://cdn01.pharmeasy.in/dam/discovery/categoryImages/f10917087a483040b557e4b18204312c.png?f=png?dim=360x0",
+        "name": "Top products"
+      },
+      {
+        "image": "https://cdn01.pharmeasy.in/dam/discovery/categoryImages/fa936f30b4563fc4abd187fb22fe5258.png?f=png?dim=360x0",
+        "name": "Elderly care"
+      },
+      {
+        "image": "https://cdn01.pharmeasy.in/dam/discovery/categoryImages/34e0883c7dbb3342a5f332276abb9432.jpg?f=jpg?dim=360x0",
+        "name": "Personal care"
+      },
+      {
+        "image": "https://cdn01.pharmeasy.in/dam/discovery/categoryImages/9cc9a28ea4513009966cae794114eefd.png?f=png?dim=360x0",
+        "name": "Healthcare devices"
+      },
+      {
+        "image": "https://cdn01.pharmeasy.in/dam/discovery/categoryImages/7af974da68693a0996f5b1c3e8ceaeaf.png?f=png?dim=256x0",
+        "name": "Health food and drinks"
+      },
+      {
+        "image": "https://cdn01.pharmeasy.in/dam/discovery/categoryImages/ce48d6d71ace3892945f0b0a64c1f0e9.png?f=png?dim=256x0",
+        "name": "Skin care"
+      },
+      {
+        "image": "https://cdn01.pharmeasy.in/dam/discovery/categoryImages/0de65bec9fc2342b978b739fa78a6095.png?f=png?dim=256x0",
+        "name": "Mother and baby care"
+      },
+      {
+        "image": "https://cdn01.pharmeasy.in/dam/discovery/categoryImages/4405b7900b0b34fcb5c8572aae9d4b2e.png?f=png?dim=256x0",
+        "name": "Accessories & wearables"
+      },
+      {
+        "image": "https://cdn01.pharmeasy.in/dam/discovery/categoryImages/3a091cd5f1223565a7e772175f83158f.png?f=png?dim=256x0",
+        "name": "Fitness supplements"
+      },
+      {
+        "image": "https://cdn01.pharmeasy.in/dam/discovery/categoryImages/b61f2824dbaf306da550d80d94fbeaf4.png?f=png?dim=256x0",
+        "name": "Ayurvedic care"
+      },
+      {
+        "image": "https://cdn01.pharmeasy.in/dam/discovery/categoryImages/af7a9b53ad1239659615c6895b0972d7.png?f=png?dim=256x0",
+        "name": "Sexual wellness"
+      },
+      {
+        "image": "https://cdn01.pharmeasy.in/dam/discovery/categoryImages/105ceca515ee30509f93309ae75306aa.png?f=png?dim=256x0",
+        "name": "Diabetic care"
+      },
+      {
+        "image": "https://cdn01.pharmeasy.in/dam/discovery/categoryImages/35d6d4e00e5d3058906cfa8b92ca799c.png?f=png?dim=256x0",
+        "name": "Health condition"
+      },
+      {
+        "image": "https://cdn01.pharmeasy.in/dam/discovery/categoryImages/dc96175686f135b5a22d1e57165d0246.png?f=png?dim=256x0",
+        "name": "Home care"
+      },
+      {
+        "image": "https://cdn01.pharmeasy.in/dam/discovery/categoryImages/ef15f03b682d37c994eb978d6c85c455.png?f=png?dim=256x0",
+        "name": "Trending products"
+      },
+      {
+        "image": "https://cdn01.pharmeasy.in/dam/discovery/categoryImages/e9ceb38252cd333f910b383ee75004c0.png?f=png?dim=256x0",
+        "name": "Summer store"
+      }
+    ]
+  },
+  "trendingnear": [
+    {
+      "image": "https://cdn01.pharmeasy.in/dam/products_otc/159115/shelcal-500mg-strip-of-15-tablets-2-1679999355.jpg?dim=700x0&dpr=1&q=100",
+      "name": "Shelcal 500mg Strip Of 15 Tablets",
+      "price": 144.3,
+      "current_price": 132.76,
+      "percentage": 8
+    },
+    {
+      "image": "https://cdn01.pharmeasy.in/dam/products_otc/000591/abzorb-antifungal-dusting-powder-100gm-2-1712152664.jpg?dim=700x0&dpr=1&q=100",
+      "name": "Abzorb Antifungal Dusting Powder 100gm",
+      "price": 142,
+      "current_price": 124.96,
+      "percentage": 12
+    },
+    {
+      "image": "https://cdn01.pharmeasy.in/dam/products_otc/T22634/liveasy-wellness-calcium-magnesium-vitamin-d3-zinc-bones-dental-health-bottle-60-tabs-2-1661760061.jpg?dim=700x0&dpr=1&q=100",
+      "name": "Liveasy Wellness Calcium Magnesium Vitamin D3 & Zinc - Bones & Dental Health - Bottle 60 Tabs",
+      "price": 599,
+      "current_price": 347.42,
+      "percentage": 42
+    },
+    {
+      "image": "https://cdn01.pharmeasy.in/dam/products_otc/I05582/dr-morepen-gluco-one-bg-03-glucometer-test-strips-box-of-50-1-1669655233.jpg?dim=700x0&dpr=1&q=100",
+      "name": "Dr. Morepen Gluco One Bg 03 Glucometer Test Strips Box Of 50",
+      "price": 849,
+      "current_price": 636.75,
+      "percentage": 25
+    },
+    {
+      "image": "https://cdn01.pharmeasy.in/dam/products_otc/I00596/revital-h-woman-multivitamin-with-calcium-zinc-ginseng-for-immunity-strong-bones-energy-30-tablets-6.1-1713162029.jpg?dim=700x0&dpr=1&q=100",
+      "name": "Revital H Woman Multivitamin With Calcium Zinc Ginseng For Immunity Strong Bones & Energy 30 Tablets",
+      "price": 400,
+      "current_price": 0,
+      "percentage": 0
+    },
+    {
+      "image": "https://cdn01.pharmeasy.in/dam/products_otc/S04683/evion-400mg-strip-of-20-capsule-2-1683208555.jpg?dim=700x0&dpr=1&q=100",
+      "name": "Evion 400mg Strip Of 20 Capsule",
+      "price": 86.87,
+      "current_price": 79.05,
+      "percentage": 9
+    },
+    {
+      "image": "https://cdn01.pharmeasy.in/dam/products_otc/D52223/liveasy-foods-healthy-roasted-seed-mix-blend-of-6-fibre-rich-healthy-roasted-seeds-200-gms-2-1656420865.jpg?dim=700x0&dpr=1&q=100",
+      "name": "Liveasy Foods Healthy Roasted Seed Mix - Blend Of 6 Fibre Rich Healthy Roasted Seeds - 200 Gms",
+      "price": 399,
+      "current_price": 199.5,
+      "percentage": 50
+    },
+    {
+      "image": "https://cdn01.pharmeasy.in/dam/products_otc/T70695/supradyn-daily-multivitamin-tablet-with-essential-zinc-vitamins-for-daily-immunity-energy-2-1677155713.jpg?dim=700x0&dpr=1&q=100",
+      "name": "Supradyn Daily Multivitamin With Essential Zinc, Vitamins, For Immunity & Energy Strip Of 15 Tablets",
+      "price": 60.35,
+      "current_price": 55.52,
+      "percentage": 8
+    },
+    {
+      "image": "https://cdn01.pharmeasy.in/dam/products_otc/188996/zincovit-strip-of-15-tablets-green-2-1702990444.jpg?dim=700x0&dpr=1&q=100",
+      "name": "Zincovit Strip Of 15 Tablets (Green)",
+      "price": 110,
+      "current_price": 101.2,
+      "percentage": 8
+    },
+    {
+      "image": "https://cdn01.pharmeasy.in/dam/products_otc/192351/i-pill-emergency-contraceptive-pill-2-1672279640.jpg?dim=700x0&dpr=1&q=100",
+      "name": "I-Pill Emergency Contraceptive Pill",
+      "price": 110,
+      "current_price": 0,
+      "percentage": 0
+    },
+    {
+      "image": "https://cdn01.pharmeasy.in/dam/products_otc/177755/unwanted-72-strip-of-1-tablet-2-1669655391.jpg?dim=700x0&dpr=1&q=100",
+      "name": "Unwanted 72 Strip Of 1 Tablet",
+      "price": 75,
+      "current_price": 63.75,
+      "percentage": 15
+    },
+    {
+      "image": "https://cdn01.pharmeasy.in/dam/products_otc/000665/accu-chek-active-glucometer-test-strips-box-of-50-1-1669655023.jpg?dim=700x0&dpr=1&q=100",
+      "name": "Accu-Chek Active Glucometer Test Strips Box Of 50",
+      "price": 1145,
+      "current_price": 1030.5,
+      "percentage": 10
+    },
+    {
+      "image": "https://cdn01.pharmeasy.in/dam/products_otc/Y63373/candid-dusting-powder-120-gm-2-1671742283.jpg?dim=700x0&dpr=1&q=100",
+      "name": "Candid Dusting Powder - 120 Gm",
+      "price": 159,
+      "current_price": 143.1,
+      "percentage": 10
+    }
+  ],
+  "labtests": [
+    {
+      "off": 60,
+      "heading": "Comprehensive Full Body Checkup Test With Vitamin D & B12",
+      "info": "Measures Vitamin D & B12 levels and other essential parameters",
+      "price": 4899,
+      "current_price": 1939,
+      "image": "https://s3.ap-south-1.amazonaws.com/pe-neon-public/diagnostics/production/recommendationWidget/c4162b4ec00938379d15b2719577457e.png?dim=256x0",
+      "bg": "#F1FAFE"
+    },
+    {
+      "off": 60,
+      "heading": "Healthy 2024 Full Body Checkup",
+      "info": "Diagnostic tool for screening and monitoring of your health",
+      "price": 3599,
+      "current_price": 1449,
+      "image": "https://s3.ap-south-1.amazonaws.com/pe-neon-public/diagnostics/production/recommendationWidget/37ebeeb109543b779c568444f7ce84be.png?dim=256x0",
+      "bg": "#FDF7E8"
+    },
+    {
+      "off": 43,
+      "heading": "Diabetes Care",
+      "info": "Specially designed package to cover the preventive care aspects for diabetics",
+      "price": 3599,
+      "current_price": 1449,
+      "image": "https://s3.ap-south-1.amazonaws.com/pe-neon-public/diagnostics/production/recommendationWidget/01abb07c5b233f90b2cd0b64a7ebccee.png?dim=256x0",
+      "bg": "#F1FAFE"
+    },
+    {
+      "off": 50,
+      "heading": "Basic Health Checkup",
+      "info": "Assesses health of 47 essential body parameters",
+      "price": 2249,
+      "current_price": 999,
+      "image": "https://s3.ap-south-1.amazonaws.com/pe-neon-public/diagnostics/production/recommendationWidget/01abb07c5b233f90b2cd0b64a7ebccee.png?dim=256x0",
+      "bg": "#FDF7E8"
+    }
+  ],
+  "spotlight": [
+    {
+      "image":
+        "https://cdn01.pharmeasy.in/dam/products_otc/L79986/everherb-karela-jamun-juice-helps-maintains-healthy-sugar-levels-helps-in-weight-management-1l-2-1698385993.jpg?dim=360x0",
+      "name": "Everherb Karela Jamun Juice - Helps Maintains Healthy Sugar Levels -Helps In Weight Management - 1l",
+      "price": 399,
+      "current_price": 207.48,
+      "percentage": 48
+    },
+    {
+      "image":
+        "https://cdn01.pharmeasy.in/dam/products_otc/T22634/liveasy-wellness-calcium-magnesium-vitamin-d3-zinc-bones-dental-health-bottle-60-tabs-2-1661760061.jpg?dim=360x0",
+      "name": "Liveasy Wellness Calcium Magnesium Vitamin D3 & Zinc - Bones & Dental Health - Bottle 60 Tabs",
+      "price": 599,
+      "current_price": 347.42,
+      "percentage": 42
+    },
+    {
+      "image":
+        "https://cdn01.pharmeasy.in/dam/products_otc/G67452/pharmeasy-calcium-magnesium-vitamin-d3-zinc-bones-dental-health-bottle-60-6.1-1708149179.jpg?dim=360x0",
+      "name": "Pharmeasy Calcium Magnesium Vitamin D3 & Zinc - Bones & Dental Health - Bottle 60",
+      "price": 499,
+      "current_price": 309.38,
+      "percentage": 38
+    },
+    {
+      "image":
+        "https://cdn01.pharmeasy.in/dam/products_otc/T60720/pharmeasy-multivitamin-multimineral-immunity-booster-complete-nutrition-bottle-of-60-2-1698386136.jpg?dim=360x0",
+      "name": "Pharmeasy Multivitamin Multimineral - Immunity Booster - Complete Nutrition - Bottle Of 60",
+      "price": 699,
+      "current_price": 384.45,
+      "percentage": 45
+    },
+    {
+      "image":
+        "https://cdn01.pharmeasy.in/dam/products_otc/D52223/liveasy-foods-healthy-roasted-seed-mix-blend-of-6-fibre-rich-healthy-roasted-seeds-200-gms-2-1656420865.jpg?dim=360x0",
+      "name": "Liveasy Foods Healthy Roasted Seed Mix - Blend Of 6 Fibre Rich Healthy Roasted Seeds - 200 Gms",
+      "price": 399,
+      "current_price": 199.5,
+      "percentage": 50
+    },
+    {
+      "image":
+        "https://cdn01.pharmeasy.in/dam/products_otc/E07034/liveasy-wellness-diabetic-protein-blood-sugar-weight-management-french-vanilla-400g-jar-6.1-1717574982.jpg?dim=360x0",
+      "name": "Liveasy Wellness Diabetic Protein - Blood Sugar & Weight Management -French Vanilla 400g Jar",
+      "price": 999,
+      "current_price": 539.46,
+      "percentage": 46
+    },
+    {
+      "image":
+        "https://cdn01.pharmeasy.in/dam/products_otc/E16289/pharmeasy-orthopaedic-electric-heat-belt-regular-2-1671742418.jpg?dim=360x0",
+      "name": "Pharmeasy Orthopaedic Electric Heat Belt Regular",
+      "price": 949,
+      "current_price": 569.4,
+      "percentage": 40
+    },
+    {
+      "image":
+        "https://cdn01.pharmeasy.in/dam/products_otc/Y12967/liveasy-ortho-care-acupressure-slippers-men-black-size-7-2-1674619066.jpg?dim=360x0",
+      "name": "Liveasy Ortho Care Acupressure Slippers - Men (Black) Size 7",
+      "price": 599,
+      "current_price": 347.42,
+      "percentage": 42
+    },
+    {
+      "image":
+        "https://cdn01.pharmeasy.in/dam/products_otc/V25649/liveasy-essentials-mens-diabetic-orthopedic-slippers-blue-size-uk-9-us-10-6.1-1671261853.jpg?dim=700x0&dpr=1&q=100",
+      "name": "Liveasy Essentials Men'S Diabetic & Orthopedic Slippers - Blue - Size Uk 9 / Us 10",
+      "price": 999,
+      "current_price": 519.48,
+      "percentage": 48
+    },
+    {
+      "image":
+        "https://cdn01.pharmeasy.in/dam/products_otc/O35559/liveasy-essentials-womens-diabetic-orthopedic-slippers-red-size-uk-8-us-11-6.1-1693899504.jpg?dim=360x0",
+      "name": "Liveasy Essentials Women'S Diabetic & Orthopedic Slippers - Red - Size Uk 8 / Us 11",
+      "price": 999,
+      "current_price": 519.48,
+      "percentage": 48
+    }
+  ],
+  "swaperslide":[
+    {
+      "image": "https://cdn01.pharmeasy.in/dam/banner/banner/b25428221f0-Fytika.jpg?dim=1440x0"
+    },
+    {
+      "image": "https://cdn01.pharmeasy.in/dam/banner/banner/79376760bc6-beauty.jpg?dim=1440x0"
+    },
+    {
+      "image": "https://cdn01.pharmeasy.in/dam/banner/banner/bbac4468441-smell.jpg?dim=1440x0"
+    },
+    {
+      "image": "https://cdn01.pharmeasy.in/dam/banner/banner/5e9dc201ab9-DevicesClearanceStore.jpg?dim=1440x0"
+    },
+    {
+      "image": "https://cdn01.pharmeasy.in/dam/banner/banner/ed87375d79f-DiabeticCare-min.png?dim=1440x0"
+    },
+    {
+      "image": "https://cdn01.pharmeasy.in/dam/banner/banner/721b231d717-covid-19.jpg?dim=1440x0"
+    },
+    {
+      "image": "https://cdn01.pharmeasy.in/dam/banner/banner/ceb1d207cd8-top-personal-care.jpg?dim=1440x0"
+    },
+    {
+      "image": "https://cdn01.pharmeasy.in/dam/banner/banner/793d0a0197f-safety.jpg?dim=1440x0"
+    }
+  ],
+  "footer":[
+    {
+      "image":"https://assets.pharmeasy.in/apothecary/images/gpay.png?dim=1440x0"
+    },
+    {
+      "image":"https://assets.pharmeasy.in/apothecary/images/paytm.png?dim=1440x0"
+    },
+    {
+      "image":"https://assets.pharmeasy.in/apothecary/images/phonepe.png?dim=1440x0"
+    },
+    {
+      "image":"https://assets.pharmeasy.in/apothecary/images/amazon.png?dim=1440x0"
+    },
+    {
+      "image":"https://assets.pharmeasy.in/apothecary/images/mobikwik.png?dim=1440x0"
+    },
+    {
+      "image":"https://assets.pharmeasy.in/apothecary/images/olamoney.png?dim=1440x0"
+    },
+    {
+      "image":"https://assets.pharmeasy.in/apothecary/images/maestro.png?dim=1440x0"
+    },
+    {
+      "image":"https://assets.pharmeasy.in/apothecary/images/mastercard.png?dim=1440x0"
+    },
+    {
+      "image":"https://assets.pharmeasy.in/apothecary/images/visa.png?dim=1440x0"
+    },
+    {
+      "image":"https://assets.pharmeasy.in/apothecary/images/rupay.png?dim=1440x0"
+    }
+  ]
+}
