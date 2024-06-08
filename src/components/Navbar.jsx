@@ -4,6 +4,7 @@ import express_delivery from "../assets/ic_express delivery.svg";
 import Logo_mobile from "../assets/mobile-logo.svg";
 import {
   RiArrowDownSLine,
+  RiArrowDropDownLine,
   RiDiscountPercentLine,
   RiMenuFoldFill,
   RiShoppingCartLine,
@@ -30,6 +31,16 @@ import {
   CardFooter,
 } from "@chakra-ui/react";
 import axios from "axios";
+import {
+  Menu,
+  MenuButton,
+  MenuList,
+  MenuItem,
+  MenuItemOption,
+  MenuGroup,
+  MenuOptionGroup,
+  MenuDivider,
+} from "@chakra-ui/react";
 import { AuthContext } from "../context/AuthContextProvider";
 
 const Navbar = () => {
@@ -46,6 +57,7 @@ const Navbar = () => {
   }
 
   const {
+    logOut,
     logIn,
     auth: { isLoggedIn },
   } = useContext(AuthContext);
@@ -70,6 +82,9 @@ const Navbar = () => {
 
   if(isLoggedIn){
       navigate("/")
+  }
+  function handleComplete(){
+    console.log("completed")
   }
   return (
     <>
@@ -191,15 +206,31 @@ const Navbar = () => {
                   </DrawerFooter>
                 </DrawerContent>
               </Drawer>
-              <Button
-                bg={"none"}
-                _hover={{ bg: "none" }}
-                onClick={onOpen}
-                className="flex font-semibold bg-none text-sm items-center gap-2 text-stone-700 hover:underline decoration-dashed decoration-0 max-sm:hidden max-lg:hidden max-xl:block max-xl:mx-3"
-              >
-                <RiUserLine size={20} />
-                <p className="max-xl:hidden"> Hello, {"Log In"}</p>
-              </Button>
+             
+              {isLoggedIn ? (
+                <>
+                  <Menu>
+                    <MenuButton as={Button} colorScheme="teal" variant={"outline"} rightIcon={<RiArrowDropDownLine />}>
+                      User
+                    </MenuButton>
+                    <MenuList>
+                      <MenuItem onClick={logOut}>Log Out</MenuItem>
+                    </MenuList>
+                  </Menu>
+                </>
+              ) : (
+                <Button
+                  bg={"none"}
+                  _hover={{ bg: "none" }}
+                  onClick={onOpen}
+                  className="flex font-semibold bg-none text-sm items-center gap-2 text-stone-700 hover:underline decoration-dashed decoration-0 max-sm:hidden max-lg:hidden max-xl:block max-xl:mx-3"
+                >
+                  <RiUserLine size={20} />
+                  <p className="max-xl:hidden">
+                     Hello, Log In
+                  </p>
+                </Button>
+              )}
               <Link
                 to="/"
                 className="flex font-semibold text-sm items-center gap-2 text-stone-700 hover:underline decoration-dashed decoration-0 max-sm:mr-4 max-lg:mr-4 max-xl:mx-3"

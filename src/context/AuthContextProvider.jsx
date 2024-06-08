@@ -1,6 +1,6 @@
 import React, { createContext,useState } from "react";
 
-
+import AlertBox from "../components/Alert";
 
 export const AuthContext = createContext(null);
 const AuthContextProvider = ({ children }) => {
@@ -17,8 +17,15 @@ const AuthContextProvider = ({ children }) => {
         token:token,
       })
   }
+   const logOut = () => {
+     setAuth({
+       isLoggedIn: false,
+       token: false,
+     });
+    
+   };
 
-  return <AuthContext.Provider value={{logIn ,auth}}>{children}</AuthContext.Provider>;
+  return <AuthContext.Provider value={{logIn ,auth ,logOut}}>{children}</AuthContext.Provider>;
 };
 
 export default AuthContextProvider;
