@@ -1,19 +1,18 @@
-import React from "react";
+
 import {
   Box,
   Button,
-  Center,
+
   Flex,
   Heading,
   Image,
-  Spacer,
   Text,
   GridItem,
   Tag,
   TagLabel,
   SimpleGrid,
 } from "@chakra-ui/react";
-import { Ri4kLine, RiAttachment2 } from "@remixicon/react";
+import { RiAttachment2 } from "@remixicon/react";
 
 const OrdPres = () => {
   const breakpoints = {
@@ -129,3 +128,5 @@ const OrdPres = () => {
 };
 
 export default OrdPres;
+
+

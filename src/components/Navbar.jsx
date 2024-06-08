@@ -80,12 +80,8 @@ const Navbar = () => {
     }
   }
 
-  if(isLoggedIn){
-      navigate("/")
-  }
-  function handleComplete(){
-    console.log("completed")
-  }
+ 
+ 
   return (
     <>
       <div className="fixed shadow-md w-full z-50">
