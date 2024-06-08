@@ -2,14 +2,8 @@
 
 A clone of the PharmaEasy website built with React, Chakra UI, and Tailwind CSS. This project includes a home page, login page, cart page, and product details page. 
 
-## Table of Contents
-- [Features](#features)
-- [Technologies Used](#technologies-used)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Project Structure](#project-structure)
-- [Contributing](#contributing)
-- [License](#license)
+[https://assets.pharmeasy.in/apothecary/images/family.svg?dim=256x0]
+
 
 ## Features
 - Home Page: Display a list of products with a search functionality.
