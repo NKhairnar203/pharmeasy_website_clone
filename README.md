@@ -2,7 +2,7 @@
 
 A clone of the PharmaEasy website built with React, Chakra UI, and Tailwind CSS. This project includes a home page, login page, cart page, and product details page. 
 
-![Alt text](favicon.png)
+![Alt text](c:\Users\NIlesh Khairnar\Pictures\Screenshots\Screenshot (20).png)
 
 
 

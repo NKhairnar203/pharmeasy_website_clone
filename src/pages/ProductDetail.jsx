@@ -17,11 +17,51 @@ import axios from "axios";
 import { useParams,Link } from "react-router-dom";
 import { useEffect, useState } from "react";
 import { RiArrowRightSLine } from "@remixicon/react";
+import SelectDropdown from "../components/SelectDropdown";
 
 const ProductDetail = () => {
   const { colorMode } = useColorMode();
   const { id } = useParams();
   const [product, setProduct] = useState({});
+   const [addCart, setAddCart] = useState(0);
+   const [cart, setCart] = useState({
+     id: id,
+     
+     
+   });
+   
+
+
+  async function handleAddToCart(){
+      // setCart(product.id,product.name)
+      
+      try {
+      const newProduct = {
+        id: id,
+        name: "",
+        image: "",
+        quantity: addCart,
+        price: product.price,
+        discount_price: product.discount_price,
+        percentage: product.percentage,
+        by: "Nilesh",
+        delivery: ["Delivery by", "Tomorrow, before 10:00 pm"],
+
+      };
+
+      let res = await axios({
+        method: "post",
+        url: `http://localhost:3000/cart`,
+        data: newProduct,
+      });
+
+      console.log(res)
+    
+    } catch (error) {
+      console.log(error);
+    }
+   }
+   
 
   async function fetchData(id) {
     try {
@@ -40,11 +80,13 @@ const ProductDetail = () => {
   useEffect(() => {
     fetchData(id);
   }, [id]);
+
+
+
+
+
+
   const breakpoints = {
-    base: "0em", 
-    sm: "30em", 
-    md: "48em", 
-    lg: "62em", 
     xl: "80em",
     "2xl": "96em", 
   };
@@ -56,7 +98,6 @@ const ProductDetail = () => {
         h={"400px"}
         borderWidth="1px"
         borderRadius="lg"
-        overflow="hidden"
         bg={colorMode === "light" ? "white" : "gray.700"}
       >
         <Breadcrumb spacing="8px" separator={<RiArrowRightSLine />}>
@@ -109,8 +150,28 @@ const ProductDetail = () => {
                     Delivery by Tomorrow, before 10:00 pm
                   </Text>
                 </Box>
-                <Box mt={5}>
-                  <Button colorScheme="teal">Add To Cart</Button>
+                <Box mt={5} display={"flex"} alignItems={"center"}>
+                  <Box display={"flex"} alignItems={"center"}>
+                    <Button
+                      isDisabled={addCart === 0}
+                      onClick={() => {
+                        setAddCart(addCart - 1);
+                      }}
+                    >
+                      -1
+                    </Button>
+                    <Text mx={6} fontSize={"20px"} fontWeight={600}>{addCart}</Text>
+                    <Button
+                      onClick={() => {
+                        setAddCart(addCart + 1);
+                      }}
+                    >
+                      +1
+                    </Button>
+                  </Box>
+                  <Button mx={5} onClick={handleAddToCart} colorScheme="teal">
+                    Add To Cart
+                  </Button>
                 </Box>
               </Box>
             </Box>

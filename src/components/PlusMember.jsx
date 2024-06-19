@@ -35,7 +35,7 @@ const PlusMember = () => {
               <Box pt={8} w={"60%"}>
                 <Text color={"white"} fontSize={"1.09rem"} fontWeight={600}>
                   Save 5% on medicines, 50% on 1st lab test & get FREE delivery
-                  with PLUS membership Know more >
+                  with PLUS membership Know more
                 </Text>
                 <Button
                   rightIcon={<RiArrowRightCircleFill color="white" />}

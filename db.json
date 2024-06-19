@@ -502,7 +502,7 @@
       "image": "https://assets.pharmeasy.in/apothecary/images/rupay.png?dim=1440x0"
     }
   ],
-  
+
   "newlaunch": [
     {
       "id": 1,
@@ -600,6 +600,62 @@
       "discount_price": 423.28,
       "percentage": 20
     }
+  ],
+  "cart": [
+    {
+      "id": 1,
+      "image": "https://cdn01.pharmeasy.in/dam/products_otc/M43688/shelcal-pro-calcium-vtamin-d3-lemon-orange-and-mixed-berries-flavour-sugar-free-30-gummies-2-1708512049.jpg?dim=1440x0",
+      "name": "Shelcal Pro Calcium & Vitamin D3 Lemon Orange And Mixed Berries Flavour Sugar Free 30 Gummies",
+      "price": 550,
+      "discount_price": 522.5,
+      "percentage": 5,
+      "by": "Nilesh",
+      "delivery": ["Delivery by", "Tomorrow, before 10:00 pm"],
+      "qty": ""
+    },
+    {
+      "id": 2,
+      "image": "https://cdn01.pharmeasy.in/dam/products_otc/O87078/pharmeasy-diabetic-protein-powder-french-vanilla-flavour-jar-of-1kg-6.1-1715854421.jpg?dim=700x0&dpr=1&q=100",
+      "name": "Pharmeasy Diabetic Protein Powder French Vanilla Flavour Jar Of 1kg",
+      "price": 2199,
+      "discount_price": 1187.46,
+      "percentage": 46,
+      "by": "Nilesh",
+      "delivery": ["Delivery by", "Tomorrow, before 10:00 pm"],
+      "qty": ""
+    },
+    {
+      "id": 3,
+      "image": "https://cdn01.pharmeasy.in/dam/products_otc/J58419/softovac-liquifibre-mango-flavour-sugar-free-bottle-of-225ml-liquid-6.1-1714735927.jpg?dim=700x0&dpr=1&q=100",
+      "name": "Softovac Liquifibre Mango Flavour Sugar Free Bottle Of 225ml Liquid",
+      "price": 240,
+      "discount_price": 0,
+      "percentage": 0,
+      "by": "Nilesh",
+      "delivery": ["Delivery by", "Tomorrow, before 10:00 pm"],
+      "qty": ""
+    },
+    {
+      "id": 4,
+      "image": "https://cdn01.pharmeasy.in/dam/products_otc/N55600/cir-adult-diaper-pants-large-waist-size-90-120cms35-47inches-10s-pack-2-1674799736.jpg?dim=1440x0",
+      "name": "Cir Adult Diaper Pants Large, Waist Size 90-120cms(35-47inches) 10s Pack",
+      "price": 549,
+      "discount_price": 307.44,
+      "percentage": 44,
+      "by": "Nilesh",
+      "delivery": ["Delivery by", "Tomorrow, before 10:00 pm"],
+      "qty": ""
+    },
+    {
+      "id": 5,
+      "image": "https://cdn01.pharmeasy.in/dam/products_otc/R80446/revital-cal-500mg-strip-of-15-tablets-6.1-1713858040.jpg?dim=1440x0",
+      "name": "Revital Cal 500mg Strip Of 15 Tablets",
+      "price": 230,
+      "discount_price": 104,
+      "percentage": 20,
+      "by": "Nilesh",
+      "delivery": ["Delivery by", "Tomorrow, before 10:00 pm"],
+      "qty": ""
+    }
   ]
-
 }
