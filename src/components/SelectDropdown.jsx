@@ -8,7 +8,7 @@ const options = [
   "MAX 20",
 ];
 
-const SelectDropdown = () => {
+const SelectDropdown = ({ quantity }) => {
   const [qty, setQty] = useState("");
 
   return (
@@ -21,8 +21,7 @@ const SelectDropdown = () => {
         mr={"40px"}
         rightIcon={<RiArrowDropDownLine />}
       >
-         QTY {qty}
-
+        QTY {quantity}
       </MenuButton>
       <MenuList>
         <MenuItem onClick={""} value={""}>

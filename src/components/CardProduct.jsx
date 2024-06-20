@@ -11,7 +11,7 @@ const CardProduct = ({
   percentage,
   by,
   delivery,
-  qty,
+  quantity,
 }) => {
   return (
     <>
@@ -68,8 +68,8 @@ const CardProduct = ({
             w={"160px"}
             mb={"16px"}
           >
-            <Delete />
-            <SelectDropdown />
+            <Delete  id={id} />
+            <SelectDropdown quantity = {quantity} />
           </Box>
         </Grid>
       </Box>

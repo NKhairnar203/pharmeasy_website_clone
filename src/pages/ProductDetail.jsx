@@ -24,11 +24,7 @@ const ProductDetail = () => {
   const { id } = useParams();
   const [product, setProduct] = useState({});
    const [addCart, setAddCart] = useState(0);
-   const [cart, setCart] = useState({
-     id: id,
-     
-     
-   });
+  //  const [cart, setCart] = useState("");
    
 
 
@@ -38,8 +34,8 @@ const ProductDetail = () => {
       try {
       const newProduct = {
         id: id,
-        name: "",
-        image: "",
+        name: product.name ,
+        image: product.image,
         quantity: addCart,
         price: product.price,
         discount_price: product.discount_price,
@@ -54,7 +50,7 @@ const ProductDetail = () => {
         url: `http://localhost:3000/cart`,
         data: newProduct,
       });
-
+      
       console.log(res)
     
     } catch (error) {

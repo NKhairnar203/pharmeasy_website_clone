@@ -14,12 +14,30 @@ import {
   Heading,
   Image,
 } from "@chakra-ui/react";
-import { RiDeleteBin6Line, RiDeleteBinLine } from "@remixicon/react";
-import data from "../../db.json"
-import React from "react";
+import { RiDeleteBinLine } from "@remixicon/react";
+import { useNavigate } from "react-router-dom";
+import axios from "axios";
 
-const Delete = () => {
+const Delete = ({id}) => {
+  const navigate = useNavigate();
+
   const { isOpen, onOpen, onClose } = useDisclosure();
+
+
+  async function handleDelete(id) {
+    try {
+      let res = await axios({
+        method: "delete",
+        url: `http://localhost:3000/cart/${id}`,
+      });
+      if (res.status == 200) {
+        navigate("/cart");
+      }
+      console.log(res);
+    } catch (error) {
+      console.log(error);
+    }
+  }
   return (
     <>
       <Button color={"gray.400"} bg={"none"} onClick={onOpen}>
@@ -76,10 +94,21 @@ const Delete = () => {
           </ModalBody>
 
           <ModalFooter>
-            <Button variant="outline" _hover={{bg:"none"}} mr={3} onClick={onClose}>
+            <Button
+              variant="outline"
+              _hover={{ bg: "none" }}
+              mr={3}
+              onClick={handleDelete(id)}
+            >
               Remove
             </Button>
-            <Button colorScheme="green.400" color={"green.600"} variant="outline">Save for Later</Button>
+            <Button
+              colorScheme="green.400"
+              color={"green.600"}
+              variant="outline"
+            >
+              Save for Later
+            </Button>
           </ModalFooter>
         </ModalContent>
       </Modal>
